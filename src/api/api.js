@@ -3,6 +3,75 @@ const tabletojson = require('tabletojson').Tabletojson;
 const {requests , renameKey} = require('./utils/index');
 const {BASE_URL} = require('./urls/index');
 
+
+const programManagers = async() =>{
+  const res = await requests(`${BASE_URL}/gerentes-de-programas/`);
+  const $ = cheerio.load(res);
+  const html = $.html();
+  const table = tabletojson.convert(html);  
+  
+  table[0].forEach((obj) =>{
+    renameKey(obj , 'Gerentes de Programas' , 'gerentes_de_programas');
+    renameKey(obj , 'Nombre (si aplica)' , 'nombre');
+    renameKey(obj , 'Correo electrónico' , 'correo_electronico');
+    renameKey(obj , 'Número de contácto\n(Recursos humanos o principal)' , 'numero_de_contacto');
+  });
+
+  const _table = []; 
+  Array.from({length: table[0].length} , (v , k) =>{
+    const gerentes_de_programas = table[0][k].gerentes_de_programas || null;
+    const nombre = table[0][k]. nombre || null;
+    const correo_electronico = table[0][k].correo_electronico || null;
+    const numero_de_contacto = table[0][k].numero_de_contacto || null;
+    const sitio_web = table[0][k].Website || null;
+    _table.push({
+      gerentes_de_programas,
+      nombre,
+      correo_electronico,
+      numero_de_contacto,
+      sitio_web
+    });
+  });
+
+  const data = [{table: _table}];
+  
+  return Promise.all(data);
+};
+
+const constructionManagers = async() =>{
+  const res = await requests(`${BASE_URL}/gerentes-de-construccion/`);
+  const $ = cheerio.load(res);
+  const html = $.html();
+  const table = tabletojson.convert(html);  
+  
+  table[0].forEach((obj) =>{
+    renameKey(obj , 'Gerentes de Construcción' , 'gerentes_de_construccion');
+    renameKey(obj , 'Nombre (si aplica)' , 'nombre');
+    renameKey(obj , 'Correo electrónico' , 'correo_electronico');
+    renameKey(obj , 'Número de contácto\n(Recursos humanos o principal)' , 'numero_de_contacto');
+  });
+
+  const _table = []; 
+  Array.from({length: table[0].length} , (v , k) =>{
+    const gerentes_de_construccion = table[0][k].gerentes_de_construccion || null;
+    const nombre = table[0][k]. nombre || null;
+    const correo_electronico = table[0][k].correo_electronico || null;
+    const numero_de_contacto = table[0][k].numero_de_contacto || null;
+    const sitio_web = table[0][k].Website || null;
+    _table.push({
+      gerentes_de_construccion,
+      nombre,
+      correo_electronico,
+      numero_de_contacto,
+      sitio_web
+    });
+  });
+
+  const data = [{table: _table}];
+  
+  return Promise.all(data);
+};
+
 const contracts = async() =>{
   const res = await requests(`${BASE_URL}/contratos/`);
   const $ = cheerio.load(res);
@@ -47,4 +116,6 @@ const contracts = async() =>{
 
 module.exports = {
   contracts,
+  constructionManagers,
+  programManagers
 }
