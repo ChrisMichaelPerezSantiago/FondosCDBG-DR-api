@@ -1,0 +1,19 @@
+{
+  "name": "FondosCDBG-DR-api",
+  "version": "1.0.0",
+  "description": "This FondosCDBG-DR API provides allocation data from the United States Department of Housing and Urban Development (HUD), available when the President declares a major disaster and there are significant unmet needs for long-term recovery.",
+  "main": "index.js",
+  "scripts": {
+    "start:api": "nodemon src/api/api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cloudscraper": "^4.6.0",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2",
+    "tabletojson": "^2.0.4"
+  }
+}
