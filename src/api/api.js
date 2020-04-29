@@ -3,6 +3,41 @@ const tabletojson = require('tabletojson').Tabletojson;
 const {requests , renameKey} = require('./utils/index');
 const {BASE_URL} = require('./urls/index');
 
+const DRGRActionPlan = async() =>{
+  const res = await requests(`${BASE_URL}/plan-accion-drgr/`);
+  const $ = cheerio.load(res);
+  const html = $.html();
+  const table = tabletojson.convert(html);  
+
+  table[0].forEach((obj) =>{
+    renameKey(obj , 'Nombre del Documento' , 'nombre_del_documento');
+    renameKey(obj , 'Fecha de Publicación' , 'fecha_de_publicacion');
+  });
+
+  const documents = []
+  $('table tbody tr td a').each((index , element) => {
+    const $element = $(element);
+    const url_doc = $element.attr('href');
+    documents.push({download_doc: url_doc});
+  });
+
+  const _table = []; 
+  Array.from({length: table[0].length} , (v , k) =>{
+    const descargar_doc = documents[k].download_doc || null;
+    const nombre_del_documento = table[0][k].nombre_del_documento || null;
+    const fecha_de_publicacion = table[0][k].fecha_de_publicacion || null;
+ 
+    _table.push({
+      nombre_del_documento,
+      fecha_de_publicacion,
+      descargar_doc
+    });
+  });
+
+  const data = [{table: _table}];
+  
+  return Promise.all(data);
+};
 
 const reports = async() =>{
   const res = await requests(`${BASE_URL}/reportes/`);
@@ -153,5 +188,6 @@ module.exports = {
   contracts,
   constructionManagers,
   programManagers,
-  reports
+  reports,
+  DRGRActionPlan
 }
