@@ -241,6 +241,64 @@ The following data groups all contractors working for the CDBG-DR funds Repair, 
 ]
 ```
 
+# Auctions and NOFAs
+The following section outlines the open and closed auctions that have been conducted under the CDBG-DR funds.
+
+## Purchases
+### PluginManager.purchases()
+
+```json
+[
+  {
+    "table": [
+      {
+        "nombre_de_la_compra": "Compra de equipos para conferencia",
+        "entidad_solicitante": "Departamento de la Vivienda",
+        "descripcion": "Solicitud de cotizaciones para la compra de equipos para conferencia",
+        "fecha_de_envio_de_cotizaciones": "2020-05-25",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/compra-de-equipos-para-conferencia/"
+      }
+    ]
+  }
+]
+```
+
+## Fund Opportunities
+### PluginManager.fundOpportunities()
+
+```json
+[
+  {
+    "table": [
+      {
+        "nombre_del_documento": "Aviso de Disponibilidad de Fondos de MRP",
+        "fecha_de_publicacion": "11/22/2019",
+        "categoria": "Planificación",
+        "descargar_doc": "https://cdbg-dr.pr.gov/oportunidades-de-fondo/?wpdmc=planificacion-fondos"
+      },
+      {
+        "nombre_del_documento": "Aviso de Disponibilidad de Fondos para el Programa de Capacitación Laboral",
+        "fecha_de_publicacion": "03/30/2020",
+        "categoria": "Economía",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/aviso-de-disponibilidad-de-fondos-de-mrp/"
+      },
+      {
+        "nombre_del_documento": "Aviso de Disponibilidad de Fondos para el Programa de Incubadoras y Aceleradoras de Pequeñas Empresas",
+        "fecha_de_publicacion": "03/26/2020",
+        "categoria": "Economía",
+        "descargar_doc": "https://cdbg-dr.pr.gov/oportunidades-de-fondo/?wpdmc=economia-fondos"
+      },
+      {
+        "nombre_del_documento": "Aviso del Disponibilidad de Fondos para el Programa de Asesoría de Vivienda",
+        "fecha_de_publicacion": "09/23/2019",
+        "categoria": "Vivienda",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/aviso-de-disponibilidad-de-fondos-para-el-programa-de-capacitacion-laboral/"
+      }
+    ]
+  }
+]
+```
+
 
 ## <img src="https://img.icons8.com/color/48/000000/paypal.png"> **Donations**
 FondosCDBG-DR API is an open source project licensed by MIT with continuous development. If you want me to continue maintaining this library and you are interested in continuing to use it, you can help me with a monetary help in the following link:
