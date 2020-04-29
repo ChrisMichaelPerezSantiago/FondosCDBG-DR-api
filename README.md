@@ -53,6 +53,34 @@ The following section contains information on the performance reports that have 
 ]
 ```
 
+### PackageManager.DRGRActionPlan()
+DRGR Action Plan Documents
+
+```json
+[
+  {
+    "table": [
+      {
+        "nombre_del_documento": "1.5 and 1.7 Billion Action Plan Download Submitted – Await for Review 4.9.2020",
+        "fecha_de_publicacion": "04/14/2020",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/billion-action-plan-download-submitted-await-for-review-4-9-2020/"
+      },
+      {
+        "nombre_del_documento": "Action Plan – 3rd NonSubstantial Reviewed and Approved 03-30-2020",
+        "fecha_de_publicacion": "03/30/2020",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/action-plan-3rd-nonsubstantial-reviewed-and-approved-03-30-2020/"
+      },
+      {
+        "nombre_del_documento": "Action Plan – Non Substantial 1 Reviewed and Approved 10-8-2019",
+        "fecha_de_publicacion": "10/18/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/action-plan-non-substantial-1-reviewed-and-approved-10-8-2019/"
+      }
+    ]
+  }
+]
+```
+
+# Contracts
 ### PackageManager.contracts()
 Data related to the contracts that have materialized under the CDBG-DR Funds.
 
