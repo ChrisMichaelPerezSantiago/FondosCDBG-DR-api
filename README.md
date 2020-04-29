@@ -10,6 +10,27 @@
   <img src="https://img.shields.io/badge/FondosCDBG_DR-API-brightgreen.svg"/>
 </p>
 
+<br/><br/><br/><br/>
+
+## What is CDBG-DR?
+It is an allocation of funds from the United States Department of Housing and Urban Development (HUD), available when the President declares a major disaster and there are significant unmet needs for long-term recovery.
+
+## Who administers it?
+The Puerto Rico Department of Housing has been designated as the entity responsible for managing the funds that will help the island recover from the disasters caused by Hurricanes Irma and Maria in 2017.
+
+
+## How will CDBG-DR funds be managed?
+To invest in a more secure and resilient society, and to achieve a transparent and planned distribution, the funds granted by CDBG-DR will be divided into 4 main categories:
+- [x] Living place
+- [x] Planning
+- [x] Economic development
+
+
+## What are the main objectives of CDBG-DR programs?
+All CDBG-DR supported programs provided by HUD must meet one of the program's national objectives:
+- [x] Benefit people from low to moderate economic resources.
+- [x] Help in the prevention or elimination of deteriorating areas.
+- [x] Meet an urgent need.
 
 
 ## 🚨 Project in premature state 🚨
