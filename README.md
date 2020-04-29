@@ -300,6 +300,228 @@ The following section outlines the open and closed auctions that have been condu
 ```
 
 
+# Programs
+The following section contains descriptive information about the programs that operate under the CDBG-DR Funds.
+
+## Programs
+### PluginManager.programs()
+
+```json
+[
+  {
+    "table": [
+      {
+        "programa": "Hipoteca al Día **** NO FUE APROBADO POR HUD",
+        "asignacion": "$0",
+        "fecha_de_publicacion": "02/21/2019",
+        "tipo_de_programa": "Vivienda",
+        "descargar_doc": "https://cdbg-dr.pr.gov/programas/?wpdmc=vivienda"
+      },
+      {
+        "programa": "Programa Brecha de CDBG-DR de los Créditos Contributivos de Vivienda por Ingresos Bajos",
+        "asignacion": "$413,000,000",
+        "fecha_de_publicacion": "07/31/2019",
+        "tipo_de_programa": "Vivienda",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/hipoteca-al-dia-no-fue-aprobado-por-hud/"
+      },
+      {
+        "programa": "Programa de Asesoría De Vivienda",
+        "asignacion": "$17,500,000",
+        "fecha_de_publicacion": "07/31/2019",
+        "tipo_de_programa": "Vivienda",
+        "descargar_doc": "https://cdbg-dr.pr.gov/programas/?wpdmc=vivienda"
+      },
+      {
+        "programa": "Programa de Asistencia Directa al Comprador",
+        "asignacion": "$350,000,000",
+        "fecha_de_publicacion": "02/21/2019",
+        "tipo_de_programa": "Vivienda",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-brecha-de-cdbg-dr-de-los-creditos-contributivos-de-vivienda-por-ingresos-bajos/"
+      },
+      {
+        "programa": "Programa de Autorización de Títulos",
+        "asignacion": "$40,000,000",
+        "fecha_de_publicacion": "07/31/2019",
+        "tipo_de_programa": "Vivienda",
+        "descargar_doc": "https://cdbg-dr.pr.gov/programas/?wpdmc=vivienda"
+      },
+      {
+        "programa": "Programa de Capacitación Laboral",
+        "asignacion": "$40,000,000",
+        "fecha_de_publicacion": "03/26/2020",
+        "tipo_de_programa": "Economía",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-asesoria-de-vivienda/"
+      },
+      // .....
+    ]
+  }
+]
+```
+
+## Planning
+### PluginManager.planning()
+
+```json
+[
+  {
+    "table": [
+      {
+        "programa": "Programa de Iniciativas de Planificación de Agencias",
+        "asignacion": "$50,000,000",
+        "fecha_de_publicacion": "02/21/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-iniciativas-de-planificacion-de-agencias/"
+      },
+      {
+        "programa": "Programa de Planificación para la Recuperación Económica",
+        "asignacion": "$0",
+        "fecha_de_publicacion": "02/21/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-planificacion-para-la-recuperacion-economica/"
+      },
+      {
+        "programa": "Programa de Planificación para la Recuperación Municipal",
+        "asignacion": "$39,000,000",
+        "fecha_de_publicacion": "09/18/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/recuperacion-municipal/"
+      },
+      {
+        "programa": "Programa para la Competencia de Innovación de Resiliencia en el Hogar",
+        "asignacion": "$5,750,000",
+        "fecha_de_publicacion": "02/21/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-para-la-competencia-de-innovacion-de-resiliencia-en-el-hogar/"
+      },
+      {
+        "programa": "Programa Planificación Integral de la Resiliencia Comunitaria",
+        "asignacion": "$55,000,000",
+        "fecha_de_publicacion": "09/11/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-planificacion-integral-de-la-resiliencia-comunitaria/"
+      }
+    ]
+  }
+]
+```
+
+## Living Place
+### PluginManager.livingPlace()
+
+```json
+[
+  {
+    "table": [
+      {
+        "programa": "Hipoteca al Día **** NO FUE APROBADO POR HUD",
+        "asignacion": "$0",
+        "fecha_de_publicacion": "02/21/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/hipoteca-al-dia-no-fue-aprobado-por-hud/"
+      },
+      {
+        "programa": "Programa Brecha de CDBG-DR de los Créditos Contributivos de Vivienda por Ingresos Bajos",
+        "asignacion": "$413,000,000",
+        "fecha_de_publicacion": "07/31/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-brecha-de-cdbg-dr-de-los-creditos-contributivos-de-vivienda-por-ingresos-bajos/"
+      },
+      {
+        "programa": "Programa de Asesoría De Vivienda",
+        "asignacion": "$17,500,000",
+        "fecha_de_publicacion": "07/31/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-asesoria-de-vivienda/"
+      },
+      {
+        "programa": "Programa de Asistencia Directa al Comprador",
+        "asignacion": "$350,000,000",
+        "fecha_de_publicacion": "02/21/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-asistencia-directa-al-comprador/"
+      },
+      // .....
+    ]
+  }
+]
+```
+
+## Economy
+### PluginManager.economy()
+
+```json
+[
+  {
+    "table": [
+      {
+        "programa": "Programa de Capacitación Laboral",
+        "asignacion": "$40,000,000",
+        "fecha_de_publicacion": "03/26/2020",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-capacitacion-laboral/"
+      },
+      {
+        "programa": "Programa de Cartera de Inversión en Desarrollo Económico para el Crecimiento",
+        "asignacion": "$800,000,000",
+        "fecha_de_publicacion": "02/21/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-cartera-de-inversion-en-desarrollo-economico-para-el-crecimiento/"
+      },
+      {
+        "programa": "Programa de Financiamiento para Pequeñas Empresas",
+        "asignacion": "$225,000,000",
+        "fecha_de_publicacion": "03/13/2020",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-financiamiento-para-pequenas-empresas/"
+      },
+      // .....
+    ]
+  }
+]
+```
+
+## Infrastructure
+### PluginManager.infrastructure()
+
+```json
+[
+  {
+    "table": [
+      {
+        "programa": "Programa de Centros de Resiliencia Comunitaria",
+        "asignacion": "$75,000,000",
+        "fecha_de_publicacion": "02/21/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-centros-de-resiliencia-comunitaria/"
+      },
+      {
+        "programa": "Programa de Pareo de Partidas No Federal",
+        "asignacion": "$1,000,000,000",
+        "fecha_de_publicacion": "09/11/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-pareo-de-partidas-no-federal/"
+      },
+      {
+        "programa": "Programa de Resiliencia de la Infraestructura Crucial",
+        "asignacion": "$400,000,000",
+        "fecha_de_publicacion": "02/21/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-de-resiliencia-de-la-infraestructura-crucial/"
+      }
+    ]
+  }
+]
+```
+
+## Multisectoral
+### PluginManager.multisectoral()
+
+```json
+[
+  {
+    "table": [
+      {
+        "programa": "Programa de Revitalización de la Ciudad",
+        "asignacion": "$1,223,000,000",
+        "fecha_de_publicacion": "03/09/2020",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/revitalizacion-de-la-ciudad/"
+      },
+      {
+        "programa": "Programa Puerto Rico se Diseña",
+        "asignacion": "$300,000,000",
+        "fecha_de_publicacion": "02/21/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/programa-puerto-rico-se-disena/"
+      }
+    ]
+  }
+]
+```
+
 ## <img src="https://img.icons8.com/color/48/000000/paypal.png"> **Donations**
 FondosCDBG-DR API is an open source project licensed by MIT with continuous development. If you want me to continue maintaining this library and you are interested in continuing to use it, you can help me with a monetary help in the following link:
 
