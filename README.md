@@ -18,6 +18,41 @@ Project started, and in development process. More information in the next days /
 
 ## 📜 API Documentation
 
+
+# Finance
+### PackageManager.reports()
+The following section contains information on the performance reports that have been made for CDBG-DR funds.
+
+```json
+[
+  {
+    "table": [
+      {
+        "nombre_del_reporte": "Contract Report 10-1-2018 to 12-31-2018",
+        "fecha_de_publicación": "01/31/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/contract-report-10-1-2018-to-12-31-2018/"
+      },
+      {
+        "nombre_del_reporte": "QPR 12-31-2019 Reviewed and Approved 3-4-2020",
+        "fecha_de_publicación": "03/05/2020",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/qpr-12-31-2019-reviewed-and-approved-3-4-2020/"
+      },
+      {
+        "nombre_del_reporte": "QPR 9-30-2019 Reviewed and Approved 2-5-2020",
+        "fecha_de_publicación": "02/05/2020",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/qpr-9-30-2019-reviewed-and-approved-2-5-2020/"
+      },
+      {
+        "nombre_del_reporte": "QPR Amended-Await for review Period 10-1-2018 to 12-31-2018",
+        "fecha_de_publicación": "02/25/2019",
+        "descargar_doc": "https://cdbg-dr.pr.gov/download/qpr-amended-await-for-review-period-10-1-2018-to-12-31-2018/"
+      },
+      // .....
+    ]
+  }
+]
+```
+
 ### PackageManager.contracts()
 Data related to the contracts that have materialized under the CDBG-DR Funds.
 
