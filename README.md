@@ -66,6 +66,97 @@ Data related to the contracts that have materialized under the CDBG-DR Funds.
 ]
 ```
 
+# Contractors
+The following data groups all contractors working for the CDBG-DR funds Repair, Reconstruction or Relocation (R3) Program.
+
+## Construction Managers
+### PackageManager.constructionManagers()
+<p align="center">
+  <img src="./assets/img/gerentes_de_contruccion_mapa.JPG" width="60%" alt="Gerentes de Construccion Mapa" />
+</p>
+
+```json
+[
+  {
+    "table": [
+      {
+        "gerentes_de_construccion": "ANG",
+        "nombre": "Dilia Gonzalez",
+        "correo_electronico": "d.gonzalez@angpr.com",
+        "numero_de_contacto": "787-439-7891",
+        "sitio_web": "www.angpr.com"
+      },
+      {
+        "gerentes_de_construccion": "Thompson",
+        "nombre": "Bob Roberts",
+        "correo_electronico": "broberts@thompsonind.com",
+        "numero_de_contacto": "939-545-0527",
+        "sitio_web": "www.thompsonind.com"
+      },
+      {
+        "gerentes_de_construccion": "Yates-Bird",
+        "nombre": "Recursos Humanos",
+        "correo_electronico": "cdbg-info@yatesbirdllc.com",
+        "numero_de_contacto": "228-271-3598",
+        "sitio_web": "www.yatesbirdllc.com"
+      },
+      {
+        "gerentes_de_construccion": "Lemoine",
+        "nombre": "Recursos Humanos",
+        "correo_electronico": "Careers@lemoinedr.com",
+        "numero_de_contacto": "1-833-536-6463 (1-833-LEMOINE)",
+        "sitio_web": "www.lemoinedr.com"
+      },
+      // .....
+    ]
+  }
+]
+```
+
+
+## Program Managers
+### PackageManager.programManagers()
+<p align="center">
+  <img src="./assets/img/gerentes_de_programa_mapa.JPG" width="60%" alt="Gerentes de Programa Mapa" />
+</p>
+
+```json
+[
+  {
+    "table": [
+      {
+        "gerentes_de_programas": "Alliance for PR",
+        "nombre": "Recursos Humanos",
+        "correo_electronico": "jobs@allianceforpr.com",
+        "numero_de_contacto": "1-800-570-8218",
+        "sitio_web": "www.allianceforpr.com"
+      },
+      {
+        "gerentes_de_programas": "AECOM",
+        "nombre": "Luis Torres",
+        "correo_electronico": "luis.torres@teamaecompr.com",
+        "numero_de_contacto": "787-705-4410",
+        "sitio_web": "www.teamaecompr.com"
+      },
+      {
+        "gerentes_de_programas": "ICF",
+        "nombre": "Adriana Brockman",
+        "correo_electronico": "Adriana.brockman@icf.com",
+        "numero_de_contacto": "703-934-3000",
+        "sitio_web": "www.icf.com/careers"
+      },
+      {
+        "gerentes_de_programas": "IEM",
+        "nombre": "Rafael Torres",
+        "correo_electronico": "Rafael.Torres@iempr.net",
+        "numero_de_contacto": "787-229-6262",
+        "sitio_web": "www.iempr.net"
+      }
+    ]
+  }
+]
+```
+
 
 ## <img src="https://img.icons8.com/color/48/000000/paypal.png"> **Donations**
 FondosCDBG-DR API is an open source project licensed by MIT with continuous development. If you want me to continue maintaining this library and you are interested in continuing to use it, you can help me with a monetary help in the following link:
